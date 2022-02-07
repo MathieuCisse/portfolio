@@ -5,15 +5,18 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatCardModule} from '@angular/material/card';
 import { AppComponent } from './app.component';
 import {RouterModule} from "@angular/router";
 import {HomeComponent} from "./components/home/home.component";
+import { SkillsComponent } from './components/skills/skills.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
@@ -22,11 +25,11 @@ import {HomeComponent} from "./components/home/home.component";
     MatButtonToggleModule,
     MatSlideToggleModule,
     MatToolbarModule,
+    MatCardModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'training', component: HomeComponent },
-      {path: 'skills', component: HomeComponent },
-      {path: 'languages', component: HomeComponent },
+      {path: 'skills', component: SkillsComponent },
       {path: 'contact', component: HomeComponent },
       {path: '**', redirectTo: '', pathMatch: 'full'}
     ])

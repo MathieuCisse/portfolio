@@ -5,4 +5,42 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.personal-info {
+  padding-left: 150px;
+}
+
+.personal-info span {
+  color: #bcbcbc;
+  float: left;
+  font-family: Montserrat;
+  font-size: 30px;
+  letter-spacing: 0;
+  width: 100%;
+}
+
+.personal-info h3 {
+  color: #ffffff;
+  float: left;
+  font-family: Montserrat;
+  /* font-size: 117px; */
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  margin: 5px 0 10px;
+  width: 100%;
+}
+
+.personal-info h5 {
+  color: #bcbcbc;
+  float: left;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  width: 100%;
 }
