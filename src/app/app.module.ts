@@ -12,16 +12,17 @@ import {HomeComponent} from "./components/home/home.component";
 import { SkillsComponent } from './components/skills/skills.component';
 import {MatListModule} from "@angular/material/list";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { ScrollAnimationDirective } from './directive/scroll-animation.directive';
-
+import { TrainingComponent } from './components/training/training.component';
+import {VerticalTimelineModule} from "angular-vertical-timeline";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SkillsComponent,
-    ScrollAnimationDirective
+    ScrollAnimationDirective,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,
@@ -33,14 +34,14 @@ import { ScrollAnimationDirective } from './directive/scroll-animation.directive
     MatCardModule,
     MatListModule,
     MatProgressSpinnerModule,
+    VerticalTimelineModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'training', component: HomeComponent},
+      {path: 'training', component: TrainingComponent},
       {path: 'skills', component: SkillsComponent},
       {path: 'contact', component: HomeComponent},
       {path: '**', redirectTo: '', pathMatch: 'full'}
     ]),
-    AnimateOnScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
