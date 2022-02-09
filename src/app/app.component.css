@@ -1,6 +1,11 @@
 .navbar {
   height: 7vh;
+  padding-right: 35px;
 }
+.navbar button {
+  margin-left: 15px;
+}
+
 .components-outlet {
   height: 93vh;
 }

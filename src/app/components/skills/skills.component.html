@@ -1,60 +1,22 @@
 <div class="all-container">
-  <div class="container-title">
-    <h3>Mes compétences</h3>
+  <div id="loading-screen" *ngIf="skills.length <= 0">
+    <mat-spinner></mat-spinner>
   </div>
-  <div class="container-skills">
+  <div class="container-skills" *ngIf="skills.length > 0">
+    <h5>Mes compétences</h5>
     <div id="skills">
-      <h5>Compétences techniques</h5>
-      <ul>
-        <li>Administration et utilisation d’un dépôt GIT</li>
-        <li>Système d’exploitation : Windows et Linux</li>
-        <li>Administration serveur web Apache</li>
-        <li>Administration et installation base de données MySQL</li>
-        <li>Manipulation bases de données NoSQL : MongoDB, Redis</li>
-        <li>Manipulation de conteneurs Docker</li>
-        <li>Manipulation bases de données NoSQL : MongoDB, Redis</li>
-        <li>Connaissance des principes des 12-Factor</li>
-        <li>Méthodologie Scrum</li>
-        <li>Utilisation IDE de développement</li>
-        <li>OS</li>
-      </ul>
-    </div>
-    <div id="languages">
-      <h5>Compétences en programmation</h5>
-
-      <div class="backend">
-        <h6>Back-End</h6>
-        <ul>
-          <li>J2EE</li>
-          <li>C# .NET</li>
-          <li>Node JS</li>
-          <li>PHP</li>
-          <li>Laravel</li>
-          <li>Symfony</li>
-        </ul>
-      </div>
-
-      <div class="backend">
-        <h6>Front-End</h6>
-        <ul>
-          <li>Javascript/JQuery</li>
-          <li>Typescript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Angular</li>
-        </ul>
-      </div>
-
-      <div class="various">
-        <h6>Divers</h6>
-        <ul>
-          <li>Java</li>
-          <li>Shellscript</li>
-          <li>C</li>
-          <li>CSS</li>
-          <li>Markdown</li>
-        </ul>
+      <div *ngFor="let skill of skills" class="card mb-3" scrollAnimation>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{ skill.thumb }}" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ skill.title }}</h5>
+              <p class="card-text">{{ skill.description }}</p>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
