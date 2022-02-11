@@ -14,11 +14,11 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
     this.skills = [
-      { title: "Git", thumb: "http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png", description: "Je suis capable d'administrer et d'utiliser un dépôt Git. Au niveau des des services clouds, j'ai déjà manipulé Github, Gitlab et Bitbucket." },
+      { title: "Git", thumb: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png", description: "Je suis capable d'administrer et d'utiliser un dépôt Git. Au niveau des des services clouds, j'ai déjà manipulé Github, Gitlab et Bitbucket." },
       { title: "SonarQube", thumb: "https://user-images.githubusercontent.com/15386828/118396592-e331c880-b658-11eb-8fdc-7426520c691f.png", description: "Dans le but d'améliorer la qualité de code, j'utilise parfois l'outils de mesure de qualité de code SonarQube" },
       { title: "Visual Studio Code", thumb: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Visual_Studio_Code_1.18_icon.svg", description: "Éditeur de code extensible" },
       { title: "Visual Studio 2019", thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/langfr-800px-Visual_Studio_Icon_2019.svg.png", description: "IDE complet pour le développeurs C#, C++ et .NET sur Windows" },
-      { title: "Unity Open Projects", thumb: "http://assets.stickpng.com/images/58482b92cef1014c0b5e4a2d.png", description: "efozerghfoeghiuertghijerghrghtghbnrhjrthnrnthornhorohrhjorhorthjorthjiorjhtorjhojrthjrohjor" },
+      { title: "Unity Open Projects", thumb: "https://i.redd.it/tu3gt6ysfxq71.png", description: "efozerghfoeghiuertghijerghrghtghbnrhjrthnrnthornhorohrhjorhorthjorthjiorjhtorjhojrthjrohjor" },
       { title: "PHPStorm", thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/langfr-800px-PhpStorm_Icon.svg.png", description: "efozerghfoeghiuertghijerghrghtghbnrhjrthnrnthornhorohrhjorhorthjorthjiorjhtorjhojrthjrohjor" },
       { title: "Android Studio", thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Android_Studio_Icon_%282014-2019%29.svg/512px-Android_Studio_Icon_%282014-2019%29.svg.png", description: "efozerghfoeghiuertghijerghrghtghbnrhjrthnrnthornhorohrhjorhorthjorthjiorjhtorjhojrthjrohjor" },
       { title: "Docker", thumb: "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png", description: "efozerghfoeghiuertghijerghrghtghbnrhjrthnrnthornhorohrhjorhorthjorthjiorjhtorjhojrthjrohjor" },

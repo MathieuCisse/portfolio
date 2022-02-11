@@ -14,7 +14,7 @@ import {MatListModule} from "@angular/material/list";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ScrollAnimationDirective } from './directive/scroll-animation.directive';
 import { TrainingComponent } from './components/training/training.component';
-import {VerticalTimelineModule} from "angular-vertical-timeline";
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import {VerticalTimelineModule} from "angular-vertical-timeline";
     MatCardModule,
     MatListModule,
     MatProgressSpinnerModule,
-    VerticalTimelineModule,
+    MatTableModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'training', component: TrainingComponent},

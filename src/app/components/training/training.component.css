@@ -1,4 +1,10 @@
 .all-container {
   height: 100%;
   width: 100%;
+  padding-top: 15px;
+}
+
+table {
+  width: 80%;
+  padding: 10px;
 }
