@@ -13,8 +13,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import {MatListModule} from "@angular/material/list";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ScrollAnimationDirective } from './directive/scroll-animation.directive';
-import { TrainingComponent } from './components/training/training.component';
 import {MatTableModule} from '@angular/material/table';
+import { CareerComponent } from './components/career/career.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import {MatTableModule} from '@angular/material/table';
     HomeComponent,
     SkillsComponent,
     ScrollAnimationDirective,
-    TrainingComponent
+    CareerComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +37,7 @@ import {MatTableModule} from '@angular/material/table';
     MatTableModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'training', component: TrainingComponent},
+      {path: 'career', component: CareerComponent},
       {path: 'skills', component: SkillsComponent},
       {path: 'contact', component: HomeComponent},
       {path: '**', redirectTo: '', pathMatch: 'full'}
