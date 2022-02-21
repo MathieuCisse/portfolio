@@ -24,6 +24,6 @@ export class CareerComponent implements OnInit {
     ];
     this.experience = [
     ];
-    this.displayedColumns = ['career', 'place', 'date', 'city'];
+    this.displayedColumns = ['career', 'place', 'date', 'city', 'details'];
   }
 }
