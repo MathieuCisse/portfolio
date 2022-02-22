@@ -15,6 +15,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { ScrollAnimationDirective } from './directive/scroll-animation.directive';
 import {MatTableModule} from '@angular/material/table';
 import { CareerComponent } from './components/career/career.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CareerComponent } from './components/career/career.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
     MatButtonToggleModule,
