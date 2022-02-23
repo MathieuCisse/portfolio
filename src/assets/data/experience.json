@@ -1,0 +1,56 @@
+[
+  {
+    "career":"Alternant développeur web",
+    "place":"Cirkwi",
+    "date":"Septembre 2021 – Septembre 2022",
+    "city":"Oberschaeffolsheim,",
+    "details":"gne gne gne gne j'étais préparateur de commande",
+    "activities":[
+      "Maintenance d'applications web déjà existantes",
+      "Ajout de nouvelles fonctionnalités"
+    ]
+  },
+  {
+    "career":"Alternant développeur web",
+    "place":"DAFI Informatique",
+    "date":"Juin 2020 – Septembre 2021",
+    "city":"Oberschaeffolsheim,",
+    "details":"gne gne gne gne j'étais préparateur de commande",
+    "activities":[
+      "Analyse d'un cahier des charges",
+      "Reprise d'un projet déjà existant",
+      "Développement Back-End et Front-End",
+      "Développement d’une interface web de saisie de commande",
+      "Développement d'une application informatisant un système d’enregistrement de passage",
+      "Optimisation des requêtes SQL",
+      "Analyse demande du client et définition d’un cahier des charges",
+      "Mise en production de l’application chez le client",
+      "Installation d’un serveur local chez le client"
+    ]
+  },
+  {
+    "career":"Équipier Polyvalent",
+    "place":"Quick Dorlisheim",
+    "date":"Juin 2019 – Août 2019",
+    "city":"Dorlisheim",
+    "details":"gne gne gne gne j'étais préparateur de commande",
+    "activities":[
+      "Accueil de la clientèle",
+      "Prise de commande",
+      "Préparation de commande de la clientèle",
+      "Entretien de la salle du restaurant"
+    ]
+  },
+  {
+    "career":"Préparateur de commande",
+    "place":"Orsay GmbH",
+    "date":"Août 2018",
+    "city":"Willstät (Allemagne)",
+    "details":"gne gne gne gne j'étais préparateur de commande",
+    "activities":[
+      "Réception des marchandises",
+      "Vérification des marchandises",
+      "Préparation des commandes"
+    ]
+  }
+]

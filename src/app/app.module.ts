@@ -12,10 +12,11 @@ import {HomeComponent} from "./components/home/home.component";
 import { SkillsComponent } from './components/skills/skills.component';
 import {MatListModule} from "@angular/material/list";
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
-import { ScrollAnimationDirective } from './directive/scroll-animation.directive';
+import { ScrollAnimationDirective } from './directives/scroll-animation.directive';
 import {MatTableModule} from '@angular/material/table';
 import { CareerComponent } from './components/career/career.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatIconModule,
     MatButtonModule,
     MatButtonToggleModule,

@@ -1,17 +1,22 @@
 .all-container {
   height: 100%;
-  background-image: url('https://www.unila.edu.mx/wp-content/uploads/2021/07/para-que-sirve-la-informatica-1024x682.jpg');
+  background-image: url('https://www.guillaume-juncker.fr/storage/private/system/images/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .personal-info {
-  padding-left: 150px;
+  text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .personal-info span {
@@ -20,7 +25,6 @@
   font-family: Montserrat;
   font-size: 30px;
   letter-spacing: 0;
-  width: 100%;
 }
 
 .personal-info h3 {
@@ -32,7 +36,6 @@
   font-weight: bold;
   letter-spacing: -5px;
   margin: 5px 0 10px;
-  width: 100%;
 }
 
 .personal-info h5 {
@@ -42,5 +45,8 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0;
-  width: 100%;
+}
+
+.personal-info button {
+  margin-top: 30px;
 }

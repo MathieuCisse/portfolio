@@ -1,11 +1,8 @@
 <div class="all-container">
-  <div id="loading-screen" *ngIf="skills.length <= 0">
-    <mat-spinner></mat-spinner>
-  </div>
-  <div class="container-skills" *ngIf="skills.length > 0">
+  <div class="container-skills" *ngIf="(skillsObservable$ | async); else loading">
     <h5>Mes compétences</h5>
     <div id="skills">
-      <div *ngFor="let skill of skills" class="card mb-3" scrollAnimation>
+      <div *ngFor="let skill of skillsObservable$ | async" class="card mb-3" scrollAnimation>
         <div class="row g-0">
           <div class="col-md-4">
             <img src="{{ skill.thumb }}" class="img-fluid">
@@ -18,7 +15,11 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
+  <ng-template #loading>
+    <div id="loading-screen">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
 </div>
