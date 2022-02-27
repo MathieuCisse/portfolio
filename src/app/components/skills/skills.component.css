@@ -14,6 +14,9 @@
 #skills {
   min-width: 500px;
   margin-left: 15px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 h3 {
@@ -28,7 +31,7 @@ h3 {
 h5 {
   font-size: 30px;
   font-weight: bold;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   margin: 5px 0 10px;
 }
 
@@ -40,6 +43,7 @@ img {
 .card {
   max-width: 500px;
   padding: 15px;
+  margin: 0 10px;
 
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
