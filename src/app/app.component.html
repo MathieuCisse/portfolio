@@ -1,12 +1,11 @@
-<mat-toolbar class="navbar">
-  <span class="spacer-navbar"></span>
-  <a mat-button [routerLink]="['/']">Accueil</a>
-  <a mat-button [routerLink]="['/career']">Parcours</a>
-  <a mat-button [routerLink]="['/skills']">Compétences</a>
-  <a mat-button [routerLink]="['/langages']">Languages</a>
-  <a mat-button [routerLink]="['/contact']">Contact</a>
-  <button mat-mini-fab><mat-icon>wb_sunny</mat-icon></button>
+<mat-toolbar class="navbar d-flex justify-content-center">
+  <a mat-raised-button [routerLink]="['/']">Accueil</a>
+  <a mat-raised-button [routerLink]="['/career']">Parcours</a>
+  <a mat-raised-button [routerLink]="['/skills']">Compétences</a>
+  <a mat-raised-button [routerLink]="['/langages']">Languages</a>
+  <a mat-raised-button [routerLink]="['/aboutme']">À propos de moi</a>
 </mat-toolbar>
 <div class="components-outlet">
   <router-outlet></router-outlet>
 </div>
+

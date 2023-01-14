@@ -17,6 +17,7 @@ import {MatTableModule} from '@angular/material/table';
 import { CareerComponent } from './components/career/career.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {HttpClientModule} from "@angular/common/http";
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {HttpClientModule} from "@angular/common/http";
     HomeComponent,
     SkillsComponent,
     ScrollAnimationDirective,
-    CareerComponent
+    CareerComponent,
+    AboutmeComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,7 @@ import {HttpClientModule} from "@angular/common/http";
       {path: '', component: HomeComponent},
       {path: 'career', component: CareerComponent},
       {path: 'skills', component: SkillsComponent},
-      {path: 'contact', component: HomeComponent},
+      {path: 'aboutme', component: AboutmeComponent},
       {path: '**', redirectTo: '', pathMatch: 'full'}
     ]),
   ],

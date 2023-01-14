@@ -29,7 +29,6 @@
 .personal-info h3 {
   color: #ffffff;
   float: left;
-  /* font-size: 117px; */
   font-size: 100px;
   font-weight: bold;
   margin: 5px 0 10px;
@@ -46,3 +45,20 @@
 .personal-info button {
   margin-top: 30px;
 }
+
+.personal-info hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  color: #ffffff;
+}
+
+.personal-info .social-media a {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0 6px;
+}
+
+.personal-info .social-media a:hover {
+  color: #bcbcbc;
+}
+
