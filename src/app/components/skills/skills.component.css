@@ -32,7 +32,7 @@ h5 {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: -2px;
-  margin: 5px 0 10px;
+  margin: 20px 0 10px;
 }
 
 img {
@@ -43,14 +43,10 @@ img {
 .card {
   max-width: 500px;
   padding: 15px;
-  margin: 0 10px;
+  margin: 20px 35px;
 
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-
-  opacity: 0;
 }
 
 .card.scrolled {
@@ -59,6 +55,7 @@ img {
 
 .card.scrolled:hover {
   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+  transform: scale(1.05);
 }
 
 @keyframes fadeInBottom {
@@ -99,3 +96,17 @@ img {
 
   background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
 }
+
+@media only screen and (max-width: 1500px) {
+  #skills {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h5 {
+    display: none;
+  }
+}
+
+

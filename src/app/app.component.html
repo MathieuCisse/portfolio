@@ -1,10 +1,12 @@
-<mat-toolbar class="navbar d-flex justify-content-center">
-  <a mat-raised-button [routerLink]="['/']">Accueil</a>
-  <a mat-raised-button [routerLink]="['/career']">Parcours</a>
-  <a mat-raised-button [routerLink]="['/skills']">Compétences</a>
-  <a mat-raised-button [routerLink]="['/langages']">Languages</a>
-  <a mat-raised-button [routerLink]="['/aboutme']">À propos de moi</a>
-</mat-toolbar>
+<header class="mb-auto">
+  <nav class="nav justify-content-center align-items-center">
+    <a [routerLink]="['/']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accueil</a>
+    <a [routerLink]="['/career']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Parcours</a>
+    <a [routerLink]="['/skills']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Compétences</a>
+    <a [routerLink]="['/langages']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Languages</a>
+    <a [routerLink]="['/aboutme']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">À propos de moi</a>
+  </nav>
+</header>
 <div class="components-outlet">
   <router-outlet></router-outlet>
 </div>

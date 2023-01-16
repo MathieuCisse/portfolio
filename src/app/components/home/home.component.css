@@ -1,6 +1,6 @@
 .all-container {
   height: 100%;
-  background-image: url('https://www.guillaume-juncker.fr/storage/private/system/images/background.jpg');
+  background-image: url('src/assets/img/background.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,3 +62,44 @@
   color: #bcbcbc;
 }
 
+@media only screen and (max-width: 700px) {
+  .personal-info h3 {
+    font-size: 60px;
+  }
+
+  .personal-info h5 {
+    font-size: 15px;
+  }
+
+  .personal-info span {
+    font-size: 15px;
+  }
+
+  .personal-info .social-media a {
+    font-size: 20px;
+  }
+
+  .personal-info button {
+    font-size: 10px;
+    padding: 0 8px;
+    line-height: 26px;
+  }
+
+  .personal-info hr {
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .personal-info h3 {
+    font-size: 40px;
+  }
+
+  .personal-info h5 {
+    font-size: 12px;
+  }
+
+  .personal-info span {
+    font-size: 12px;
+  }
+}
